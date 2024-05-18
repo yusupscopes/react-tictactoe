@@ -108,8 +108,7 @@ export default function Game() {
       : "Go to game start";
 
     const stepInfo = move
-      ? `You are at move #${move} (${step.location.row}, ${step.location.column}
-    )`
+      ? `You are at move #${move} (${step.location.row}, ${step.location.column})`
       : `Game start`;
 
     return (
